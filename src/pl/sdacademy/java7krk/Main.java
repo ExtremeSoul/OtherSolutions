@@ -4,6 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 	ScannerName writeName = new ScannerName();
-	writeName.nameInitial();
+//	writeName.nameInitial();
+
+	CamelCaseCounter x = new CamelCaseCounter();
+	x.counter();
     }
 }
